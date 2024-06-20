@@ -1,4 +1,4 @@
-# synthetic_car_dataset_for_vehicle_detection
+# synthetic_dataset_generation_system_for_vehicle_detection
 ![12](https://github.com/ProtostarLabs/synthetic_car_dataset_for_vehicle_detection/assets/155420688/49ef8465-96ba-41ef-8e04-7ec842ca0ed7)
 
 **Overview**  
