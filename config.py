@@ -1,4 +1,15 @@
+import argparse
 import os
+import sys
+
+
+if '--' in sys.argv:
+    argv = sys.argv[sys.argv.index('--') + 1:]
+parser = argparse.ArgumentParser()
+parser.add_argument('-c', '--cars_count', dest='cars_count', type=int, required=True)
+parser.add_argument('-i', '--cameras_count', dest='cameras_count', type=int, required=True)
+parser.add_argument('-l', '--lands_count', dest='lands_count', type=int, required=True)
+args = parser.parse_known_args(argv)[0]
 
 MAIN_PATH = "/home/pc4/Projekti/SyntheticCarDataset"
 DATASET_PATH = "/home/pc4/Projekti/SyntheticCarDataset/dataset"
