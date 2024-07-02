@@ -14,14 +14,14 @@ args = parser.parse_known_args(argv)[0]
 MAIN_PATH = "/home/pc4/Projekti/SyntheticCarDataset"
 DATASET_PATH = "/home/pc4/Projekti/SyntheticCarDataset/dataset"
 
-NUMBER_OF_CARS = 30
+NUMBER_OF_CARS = args.cars_count #30
 NUMBER_OF_FARM_VEHICLES = 30
 RENDER_SAMPLES = 64
 render_resolution = [640, 640]
 # Final number of annotated images will be
 # NUMBER_OF_CAMERAS * LANDS_COUNT
-NUMBER_OF_CAMERAS = 2
-LANDS_COUNT = 3
+NUMBER_OF_CAMERAS = args.cameras_count #2
+LANDS_COUNT = args.lands_count #2
 CAMERA_HEIGHT = 221
 
 ADD_TRACTORS = False
