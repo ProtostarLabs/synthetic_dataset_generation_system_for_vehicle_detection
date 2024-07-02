@@ -31,4 +31,8 @@ Link to assets https://drive.google.com/drive/folders/1Ovo127oIEZwT1bzzDcQTVDM0a
 **Running**  
 Edit the config file of this project to fit your needs. Change the MAIN_PATH to the path to where you downloaded this repository and DATASET_PATH to where you want to create your dataset.  
 In this project directory run the following command:  
-[path_to_blender_executable] --background --python create_synthetic_dataset.py
+[path_to_blender_executable] --background --python create_synthetic_dataset.py -- --cars_count 100 --cameras_count 2 --lands_count 3  
+Where arguments are as follows:
+- cars_count - number of cars to be added to the scene  
+- cameras_count - number of images to take per scene  
+- lands_count - number of different scences  
