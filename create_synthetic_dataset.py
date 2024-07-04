@@ -273,6 +273,10 @@ def edit_material(car_obj):
     car_material_nodes = car_obj.material_slots[0].material.node_tree.nodes
     car_material_nodes[0].inputs[0].default_value = car_colors[color_choice]
 
+    car_material_nodes[0].inputs["Metallic"].default_value = 0.65
+    car_material_nodes[0].inputs["Roughness"].default_value = 0.5
+    car_material_nodes[0].inputs["Clearcoat"].default_value = 0.1
+
 
 def decide_camera_locations(max_x, max_y):
     """
