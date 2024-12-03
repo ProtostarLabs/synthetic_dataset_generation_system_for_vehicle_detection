@@ -35,4 +35,7 @@ In this project directory run the following command:
 Where arguments are as follows:
 - cars_count - number of cars to be added to the scene  
 - cameras_count - number of images to take per scene  
-- lands_count - number of different scences  
+- lands_count - number of different scences
+
+**License**  
+This project is licensed under the terms of the GNU GPLv3 license.
